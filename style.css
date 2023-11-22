@@ -4,6 +4,13 @@
     height: 75px;
 }
 
+.container{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 
 header{
 
@@ -41,4 +48,57 @@ color: white;
 font-size: 20px;
 padding: 10px;
 
+}
+.awesome{
+
+
+display: inline-flex;
+background-color: #1f2937;
+padding: 50px;
+
+
+
+}
+
+button{
+
+width: 100px;
+height: 50px;
+border-radius: 10px;
+border: 1px solid #3882f6;
+background-color: #3882f6;
+color: white;
+
+}
+
+.hh{
+
+font-size: 24px;
+color:#f9faf8;
+margin:0;
+
+}
+
+.pp{
+
+  
+  color: #e5e7eb;
+  font-size: 18px;
+
+    
+    }
+
+.awesome1{
+
+
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+
+}
+.img{
+
+    width: 500px;
+    height: 250px;
 }
