@@ -55,6 +55,16 @@ color: #f9faf8;
 justify-content: center;
 }
 
+.footer{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 70px;
+background-color: #1f2937;
+color: #f9faf8;
+font-size: 14px;
+
+}
 
 .call, .signp{
 
