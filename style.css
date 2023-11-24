@@ -1,7 +1,14 @@
+body{
+    margin:0;
+    max-height: 100vh;
+}
+
+
 .logo{
 
     width: 150px;
     height: 75px;
+    margin-left: 30px;
 }
 
 .container{
@@ -11,6 +18,84 @@
     min-height: 100vh;
 }
 
+.hh1{
+
+font-size: 36px;
+font-weight: 900;
+color: #1f2937;
+display: flex;
+justify-content: center;
+
+
+}
+
+.random{
+display: flex;
+flex-direction: column;
+padding: 50px;
+gap: 20px;
+
+}
+
+.woof{
+
+height: 150px;
+width: 150px;
+border: #3882f6 solid 5px;
+border-radius: 15px;
+
+}
+
+.fullimages{
+
+display: flex;
+justify-content: center;
+gap: 52px;
+
+}
+
+.imagess1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 200px;
+    align-items: center;
+    gap: 10px;
+    
+  
+  }
+  .imagess2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 200px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  
+  }
+  .imagess3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 200px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  
+  
+  }
+  .imagess4{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+
+  }
 
 header{
 
@@ -101,4 +186,40 @@ gap: 10px;
 
     width: 500px;
     height: 250px;
+}
+
+.quote{
+
+background-color: #e5e7eb;
+padding: 40px;
+height: 250px;
+
+}
+
+.quote2{
+display: flex;
+flex-direction: column;
+width: 600px;
+height: 250px;
+justify-items: center;
+margin-left: 300px;
+
+}
+
+.pp1{
+
+color: #1f2937;
+font-style: italic;
+font-size: 25px;
+font-weight: 0;
+
+}
+
+.author{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 16px;
 }
