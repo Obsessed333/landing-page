@@ -18,6 +18,58 @@ body{
     min-height: 100vh;
 }
 
+.signup-inner{
+
+
+  display: inline-flex;
+  background-color: #3882f6;
+  padding: 50px;
+  gap: 50px;
+  border-radius: 20px;
+
+}
+
+.signup-button{
+
+display: flex;
+border:2px solid #f9faf8;
+border-radius: 10px;
+height: 50px;
+align-items: center;
+margin-top: 15px;
+}
+
+.signup{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.textt{
+display: flex;
+flex-direction: column;
+gap: 5px;
+color: #f9faf8;
+justify-content: center;
+}
+
+
+.call, .signp{
+
+  margin:0;
+  padding: 0;
+
+
+}
+
+.call{
+
+font-size: 22px;
+
+}
+
 .hh1{
 
 font-size: 36px;
